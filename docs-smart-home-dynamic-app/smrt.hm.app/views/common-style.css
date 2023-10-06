@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+#toggle {
+  display: none;
+}
+
+nav #menu {
+  display: none;
+  border-radius: 20px;
+  width: 100%;
+  clear: right;
+}
+
+nav li {
+  display: inline;
+  border: 2px solid #030e12;
+  border-radius: 0px;
+  padding: 5px;
+  white-space: nowrap;
+  margin-right: 5px;
+  background-color: #5bccf6;
+}
+
+nav li a {
+  font-style: normal;
+  text-decoration: none;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 1.1em;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  padding: 5px;
+}
+
+/*Nav button hover grow effect----------------------------*/
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
+}
